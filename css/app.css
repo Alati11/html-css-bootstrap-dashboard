@@ -6,9 +6,10 @@
 }
 
 .sidebar {
-    min-width: 100px;
+    width: 120px;
     height: 800px;
-    background-color:burlywood;
+    background-color:#051E34;
+    color: white;
 }
 
 .custom-form {
@@ -21,6 +22,13 @@ input {
     border-radius: 5px;
     border: 1px solid currentColor;
     background-color: #E5E5E5;
+}
+
+.content-hero {
+    background-color: #1B72E8;
+    color: white;
+    height: 120px;
+    width: 100%;
 }
 
 .debug {
