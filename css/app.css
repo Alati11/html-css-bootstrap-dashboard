@@ -1,3 +1,29 @@
+
+.header {
+    width:100%;
+    height: 80px;
+    background-color: white;
+}
+
+.sidebar {
+    min-width: 100px;
+    height: 800px;
+    background-color:burlywood;
+}
+
+.custom-form {
+    background-color: gray;
+    width: auto; 
+}
+
+input {
+    width:100%;
+    border-radius: 5px;
+    border: 1px solid currentColor;
+    background-color: #E5E5E5;
+}
+
 .debug {
-    border: 1px solid red;
+    border: 1px solid red ;
+    background-color: gray;
 }

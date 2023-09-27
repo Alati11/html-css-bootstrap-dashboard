@@ -16,17 +16,34 @@
     />
 </head>
 <body class="debug">  
-    <div class="container-fluid">
-        Dashboard
-        
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-2">
-                col 2
+    <!-- toolbar -->
+    <div class="container-fluid header">
+        <div class="row justify-content-between align-items-center py-3">
+            <div class="col-3">
+                <img src="./img/logo.svg" alt="">
             </div>
-            <div class="col-10">
-                col 10  
+            <div class="col-3 flex-grow-1 ">
+                <form action="" class="custom-form" method="POST">
+                    <p class="">
+                        <input type="text" name="name" placeholder="Prova a cercare: Lezioni di Laravel"/>
+                    </p> 
+                </form>
+            </div>
+            <div class="col-3">
+                menu 
+            </div>
+        </div>
+    </div>
+    <!-- fine toolbar -->
+
+
+    <div class="container-fluid ">
+        <div class="row flex-grow-1">
+            <div class="col-2 sidebar">
+                sidebar
+            </div>
+            <div class="col-10 flex-grow-1">
+                content
             </div>
         </div>
     </div>
