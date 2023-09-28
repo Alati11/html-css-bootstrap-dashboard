@@ -15,9 +15,12 @@
     referrerpolicy="no-referrer"
     />
 </head>
-<body class="debug">  
-    <!-- toolbar -->
-    <div class="container-fluid header">
+<body class="debug">
+        
+    <main>
+        <div id="app" class="">
+             <!-- toolbar -->
+            <div class="container-fluid header">
         <div class="row justify-content-between align-items-center py-3">
             <div class="col-3">
                 <img src="./img/logo.svg" alt="">
@@ -29,27 +32,60 @@
                     </p> 
                 </form>
             </div>
-            <div class="col-3 m-auto">
-                menu 
+            <div class="col-3 me-auto px-4 gap-2">
+                <div class="menu-icon-toolbar nav justify-content-end"> 
+                    <a href="#" class="ms-2"><i class="fa-solid fa-list"></i></a>
+                    <a href="#" class="ms-2"><i class="fa-solid fa-circle-question"></i></a>
+                    <a href="#" class="ms-2"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    <a href="#" class="bell ms-2 " ><i class="fa-solid fa-bell"></i></a>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- fine toolbar -->
+        </div>
+            <!-- fine toolbar -->
 
 
-    <div class="container-fluid ">
+        <div class="container-fluid ">
         <div class="row flex-grow-1">
-            <div class="col-2 sidebar">
-                <div class="sidebar__icon">
-                    icon
+            <div class="col-2 sidebar d-flex">
+                <div class="row flex-column ">
+                    <div class="col-6">
+                        <div class="sidebar__icon">
+                            <ul class="nav flex-column">
+                                <li class="">
+                                    <span class="">
+                                        <i class="fa-solid fa-house"></i>
+                                        <a class="" href="#">Home</a>
+                                    </span> 
+                                </li>
+                                <li class="">
+                                    <span class="">
+                                        <i class="fa-solid fa-house"></i>
+                                        <a class="" href="#">Stats</a>
+                                    </span> 
+                                </li>
+                                <li class="">
+                                    <span class="align-items-center ">
+                                        <i class="fa-solid fa-house"></i>
+                                        <a class="" href="#">Signals</a>
+                                    </span> 
+                                </li>
+                              </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-6">
+                        <div class="sidebar__admin">
+                            <i class="fa-solid fa-house"></i>
+                            <a href="#">Admin</a>
+                        </div>
+                    </div>  
                 </div>
-                <div class="sidebar__admin flex-shrink">
-                    admin
-                </div>
+                
             </div>
-            <div class="col-10 flex-grow-1">
-                <div class="container content-hero">
-                    <div class="row">   
+            <div class="col flex-grow-1">
+                <div class="content-hero">
+                    <div class="row ">   
                         <div class="col-4">
                             button
                         </div>
@@ -61,9 +97,35 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-8">
+                        <div class="next-classes">
+                            prossime classi
+                        </div>
+                        <div class="faq">
+                            FAQ
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="todo">
+                            Todo
+                        </div>
+                        <div class="graphic">
+                            grafico
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
+        </div>
+
+        </div>
+    </main>
+   
     
 </body>
 </html>

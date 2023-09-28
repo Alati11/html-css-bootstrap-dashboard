@@ -1,3 +1,7 @@
+#app {
+	height: 100vh;
+	color: white;
+}
 
 .header {
     width:100%;
@@ -12,15 +16,19 @@
     color: white;
 }
 
-.custom-form {
-    background-color: gray;
-    width: auto; 
+.sidebar__admin {
+    align-items: end;
+
+}
+
+.custom-form {  
+    /* width: auto;  */
+    
 }
 
 input {
     width:100%;
-    border-radius: 5px;
-    border: 1px solid currentColor;
+    border-radius: 3px;
     background-color: #E5E5E5;
 }
 
@@ -31,7 +39,15 @@ input {
     width: 100%;
 }
 
+.menu-icon-toolbar {
+    font-size: 20px;
+    
+
+}
+.bell {
+    color: orange;
+}
 .debug {
-    border: 1px solid red ;
-    background-color: gray;
+     border: 1px solid red ; 
+     background-color: gray; 
 }
