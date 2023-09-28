@@ -20,7 +20,7 @@
     <main>
         <div id="app" class="">
              <!-- toolbar -->
-            <div class="container-fluid header">
+            <div class="container-fluid header sticky-top ">
         <div class="row justify-content-between align-items-center py-3">
             <div class="col-3">
                 <img src="./img/logo.svg" alt="">
@@ -32,11 +32,11 @@
                     </p> 
                 </form>
             </div>
-            <div class="col-3 me-auto px-4 gap-2">
+            <div class="col-3 me-auto px-4 gap-2 align-middle">
                 <div class="menu-icon-toolbar nav justify-content-end"> 
-                    <a href="#" class="ms-2"><i class="fa-solid fa-list"></i></a>
-                    <a href="#" class="ms-2"><i class="fa-solid fa-circle-question"></i></a>
-                    <a href="#" class="ms-2"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    <a href="#" class="ms-2 text-dark"><i class="fa-solid fa-list"></i></a>
+                    <a href="#" class="ms-2 text-dark"><i class="fa-solid fa-circle-question"></i></a>
+                    <a href="#" class="ms-2 text-dark"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                     <a href="#" class="bell ms-2 " ><i class="fa-solid fa-bell"></i></a>
                 </div>
             </div>
@@ -44,46 +44,47 @@
         </div>
             <!-- fine toolbar -->
 
-
-        <div class="container-fluid ">
+            <!-- inizio sidebar -->
+        <div class="container-fluid">
         <div class="row flex-grow-1">
             <div class="col-2 sidebar d-flex">
-                <div class="row flex-column ">
-                    <div class="col-6">
+                <div class="row flex-column">
+                    <div class="col text-white">
                         <div class="sidebar__icon">
-                            <ul class="nav flex-column">
-                                <li class="">
-                                    <span class="">
+                            <ul class="nav flex-column align-items-center my-4">
+                                <li class="mx-auto">
+                                    <span class="d-flex align-items-center my-2">
                                         <i class="fa-solid fa-house"></i>
-                                        <a class="" href="#">Home</a>
+                                        <a class="mx-3" href="#">Home</a>
                                     </span> 
                                 </li>
                                 <li class="">
-                                    <span class="">
-                                        <i class="fa-solid fa-house"></i>
-                                        <a class="" href="#">Stats</a>
+                                    <span class="d-flex align-items-center my-2">
+                                        <i class="fa-solid fa-signal"></i>
+                                        <a class="mx-3" href="#">Stats</a>
                                     </span> 
                                 </li>
                                 <li class="">
-                                    <span class="align-items-center ">
-                                        <i class="fa-solid fa-house"></i>
-                                        <a class="" href="#">Signals</a>
+                                    <span class="d-flex align-items-center my-2">
+                                        <i class="fa-solid fa-signal"></i>
+                                        <a class="mx-3 " href="#">Signals</a>
                                     </span> 
                                 </li>
                               </ul>
                         </div>
 
                     </div>
-                    <div class="col-6">
-                        <div class="sidebar__admin">
-                            <i class="fa-solid fa-house"></i>
-                            <a href="#">Admin</a>
-                        </div>
+                    <div class="col align-items-end">
+                        <span class="icon-admin d-flex align-items-center align-self-end">
+                            <i class="fa-solid fa-gear"></i>
+                            <a class="mx-3" href="#">Admin </a>
+                        </span>
                     </div>  
                 </div>
-                
             </div>
-            <div class="col flex-grow-1">
+            <!-- fine sidebar  -->
+
+            <div class="col flex-grow-1 overflow-scroll">
                 <div class="content-hero">
                     <div class="row ">   
                         <div class="col-4">
@@ -253,7 +254,7 @@
                         <!-- fine card todo-->
 
                         <!-- inizio card graphics-->
-                        <div class="card card-stats mt-4">
+                        <div class="card mt-4">
                             <img src="./img/stats.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Utenti attivi</h5>
@@ -278,7 +279,7 @@
         </div>
         </div>
 
-        </div>
+      </div>
     </main>
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
