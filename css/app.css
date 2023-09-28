@@ -11,6 +11,26 @@ a {
     height: 60px;
     background-color: white;
 }
+/* hero */
+.button-pr {
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    background-color: #165BBA;
+    border-radius: 30%;
+    border: none;
+}
+
+.button-plus {
+    border:1px solid white;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 15%;
+    text-align: center;
+
+}
 
 .sidebar {
     width:120px;
@@ -25,12 +45,6 @@ a {
 
 .icon-admin {
     margin-top: 170px;
-
-}
-
-.custom-form {  
-    /* width: auto;  */
-    
 }
 
 input {
