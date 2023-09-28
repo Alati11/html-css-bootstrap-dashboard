@@ -1,6 +1,5 @@
 #app {
 	height: 100vh;
-	color: white;
 }
 
 .header {
@@ -47,7 +46,7 @@ input {
 .bell {
     color: orange;
 }
-.debug {
+/* .debug {
      border: 1px solid red ; 
      background-color: gray; 
-}
+} */
