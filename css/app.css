@@ -17,7 +17,6 @@
 
 .sidebar__admin {
     align-items: end;
-
 }
 
 .custom-form {  
@@ -46,6 +45,13 @@ input {
 .bell {
     color: orange;
 }
+
+/* content */
+/* card */
+.card.card-stats {
+    width:100%;
+}
+
 /* .debug {
      border: 1px solid red ; 
      background-color: gray; 
