@@ -11,6 +11,10 @@ a {
     height: 60px;
     background-color: white;
 }
+/* toolbar */
+.logo-mobile {
+	height: 50px;
+}
 /* hero */
 .button-pr {
     font-size: 12px;
